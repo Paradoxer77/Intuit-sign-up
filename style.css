@@ -4,6 +4,10 @@
   background-color: rgb(236, 238, 241);
 }
 
+.flex-content {
+  display: flex;
+}
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -42,4 +46,30 @@ header {
   text-align: center;
   vertical-align: middle;
   padding-left: 25px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.intuit-logo {
+  display: block;
+  margin: auto;
+}
+
+.intuit-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-text {
+  color: rgb(97, 96, 96);
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+.intuit-icon {
+  width: 23px;
 }
