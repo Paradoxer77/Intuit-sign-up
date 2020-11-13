@@ -1,0 +1,45 @@
+* {
+  font-family: Helvetica;
+  font-size: 12px;
+  background-color: rgb(236, 238, 241);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header-element {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.small-text {
+  color: rgb(80, 80, 80);
+}
+
+.special-text {
+  color: rgb(0, 119, 197);
+  margin-top: 3px;
+}
+
+#sign-in {
+  width: 110px;
+  height: 35px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  background-color: rgb(0, 119, 197);
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: 15px;
+  color: white;
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 25px;
+}
