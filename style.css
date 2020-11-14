@@ -51,6 +51,7 @@ header {
 
 main {
   margin-top: 20px;
+  text-align: center;
 }
 
 .intuit-logo {
@@ -192,4 +193,32 @@ label {
   color: rgb(0, 119, 197);
   background-color: rgb(228, 226, 226);
   font-size: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.nav-links {
+  text-decoration: none;
+  margin: 5px;
+  color: rgb(94, 94, 94);
+}
+
+.trademark {
+  width: 55%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#float-window {
+  position: fixed;
+  background-color: rgb(92, 92, 92);
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  bottom: 0;
+  padding: 10px 12px;
+  right: 5%;
 }
