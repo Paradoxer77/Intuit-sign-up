@@ -2,6 +2,7 @@
   font-family: Helvetica;
   font-size: 12px;
   background-color: rgb(236, 238, 241);
+  color: rgb(97, 96, 96);
 }
 
 .flex-content {
@@ -73,3 +74,42 @@ main {
 .intuit-icon {
   width: 23px;
 }
+
+form {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 400px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+  background-color: white;
+}
+
+li {
+  background-color: white;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.list-head {
+  font-size: 23px;
+  color: rgb(79, 78, 78);
+  margin-bottom: 15px;
+}
+
+.list-element {
+  font-size: 14px;
+}
+
+.list-link {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+  background-color: white;
+  font-size: 13px;
+  margin-bottom: 15px
+}
+
